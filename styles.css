@@ -1,13 +1,9 @@
-#box{
-	width:300px;
-	padding:50px;
-	border:15px solid blue;
-	margin:20px;
-}
-#eg-1{
-	width:300px;
-	padding:0px;
-	background-color:rgb(173,216,230);
-	
-}
-	
+.box {
+            width: 300px;
+            background-color: lightblue;
+            border: 15px solid blue;
+            padding: 50px;
+            margin: 20px;
+            box-sizing: border-box; /* Ensures that width includes border and padding */
+        }
+
